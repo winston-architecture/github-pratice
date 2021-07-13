@@ -1,0 +1,15 @@
+package mavPrj001;
+
+import org.springframework.context.support.GenericApplicationContext;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		TransWalk transWalk = new TransWalk();
+//		transWalk.move();
+		
+		GenericApplicationContext ctx = new GenericApplicationConetxt("Classpath:applcationContext.xml");
+	}
+
+}
